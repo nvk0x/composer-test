@@ -1,0 +1,6 @@
+{
+    "name": "zynga/phpunit",
+    "description": "Dependency conf poc",
+    "minimum-stability": "stable",
+    "require": {}
+}
