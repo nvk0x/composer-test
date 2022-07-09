@@ -1,6 +1,7 @@
 {
     "name": "zynga/phpunit",
     "description": "Dependency conf poc",
+    "license": "MIT",
     "minimum-stability": "stable",
     "require": {}
 }
